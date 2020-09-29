@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link href="assets/css/codemirror.css" rel="stylesheet">
+			<link rel="stylesheet" href="assets/css/ace.min.css" />
+			<link rel="stylesheet" href="font/css/font-awesome.min.css" />
+			<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+			<script src="js/jquery-1.9.1.min.js"></script>
+			<script src="js/wangEditor.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/typeahead-bs2.min.js"></script>
+			<script src="assets/js/jquery.dataTables.min.js"></script>
+			<script src="assets/js/jquery.dataTables.bootstrap.js"></script>
+			<script src="assets/layer/layer.js" type="text/javascript"></script>
+			<script src="assets/laydate/laydate.js" type="text/javascript"></script>
+			<title>入住人员管理</title>
+</head>
+<script>
+	function submitdemo() {
+		console.log("时间出发了");
+		var title = $("#exampleInputEmail1").val();
+		var context = $("p").html();
+		/* 	$.get("/DM-2/AnnounceServlet",{
+				op : "publish",
+				title : title,
+				context : context
+			},function(data,status,xhr){
+				console.log(status);
+				console.log(data);
+				
+				
+			}); */
+		$.ajax({
+
+			type : "get",
+			url : "/DM-2/AnnounceServlet",
+			async : true,
+			data : {
+				op : "publish",
+				title : title,
+				context : context
+			},
+			success : function(msg) {
+				alert(msg);
+				console.log(msg);
+			}
+		});
+
+	}
+</script>
+<body>
+	<div class="container" style="margin-top: 80px;">
+		<div class="row clearfix">
+			<div class="col-md-2 column">
+				<h3 class="text-info  text-left">发布公告</h3>
+			</div>
+			<div class="col-md-4 column" style="margin-top: 90px;">
+				<form action="/DM-2/AnnounceServlet?op=publish" method="post"
+					enctype="multipart/form-data">
+					<div class="form-group">
+						<label for="exampleInputEmail1">标题:</label> <input type="text"
+							name="title" class="form-control" id="exampleInputEmail1" />
+					</div>
+
+					<div class="form-group">
+						<label for="div3">公告正文:</label>
+						<textarea name="context" style="width: 360px; height: 200px;"></textarea>
+					</div>
+
+					<div class="form-group">
+						<label for="exampleInputEmail1">文件:</label> <input type="file"
+							name="file" />
+					</div>
+					<input type="submit" />
+				</form>
+			</div>
+			<div class="col-md-6 column"></div>
+		</div>
+	</div>
+</body>
+
+</html>
+<script>
+	var E = window.wangEditor
+	var editor2 = new E('#div3')
+	editor2.create()
+</script>
