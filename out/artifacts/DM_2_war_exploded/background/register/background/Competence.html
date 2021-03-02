@@ -1,0 +1,488 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link href="assets/css/codemirror.css" rel="stylesheet">
+			<link rel="stylesheet" href="assets/css/ace.min.css" />
+			<link rel="stylesheet" href="font/css/font-awesome.min.css" />
+			<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+			<script src="js/jquery-1.9.1.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/typeahead-bs2.min.js"></script>
+			<script src="assets/js/jquery.dataTables.min.js"></script>
+			<script src="assets/js/jquery.dataTables.bootstrap.js"></script>
+			<script src="assets/layer/layer.js" type="text/javascript"></script>
+			<script src="assets/laydate/laydate.js" type="text/javascript"></script>
+			<script src="js/dragDivResize.js" type="text/javascript"></script>
+			<title>添加权限</title>
+</head>
+
+<body>
+	<div class="Competence_add_style clearfix">
+		<div class="left_Competence_add">
+			<div class="title_name">添加权限</div>
+			<div class="Competence_add">
+				<div class="form-group">
+					<label class="col-sm-2 control-label no-padding-right"
+						for="form-field-1"> 权限名称 </label>
+					<div class="col-sm-9">
+						<input id="pname" type="text" id="form-field-1" placeholder=""
+							name="权限名称" class="col-xs-10 col-sm-5">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label no-padding-right"
+						for="form-field-1"> 权限描述 </label>
+					<div class="col-sm-9">
+						<textarea id="premark" name="权限描述" class="form-control"
+							id="form_textarea" placeholder="" onkeyup="checkLength(this);"></textarea>
+						<span class="wordage">剩余字数：<span id="sy"
+							style="color: Red;">200</span>字
+						</span>
+					</div>
+				</div>
+
+				<!--按钮操作-->
+				<div class="Button_operation">
+					<button id="submit" class="btn btn-primary radius">
+						<i class="fa fa-save "></i> 保存并提交
+					</button>
+					<button onclick="article_save();"
+						class="btn btn-secondary  btn-warning" type="button">
+						<i class="fa fa-reply"></i> 返回上一步
+					</button>
+					<button onclick="layer_close();" class="btn btn-default radius"
+						type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+				</div>
+
+			</div>
+		</div>
+		<!--权限分配-->
+		<div class="Assign_style">
+			<div class="title_name">权限分配</div>
+			<div class="Select_Competence">
+				<dl class="permission-list" style="border: 0">
+					<dt>
+						<label class="middle"><input id="user"
+							name="user-Character-0" class="ace" type="checkbox"
+							id="id-disable-check"><span class="lbl">住户管理</span></label>
+					</dt>
+					<dd>
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="middle"><input id="usernow"
+									type="checkbox" value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">在住人员</span></label>
+							</dt>
+							<dt>
+								<label class="middle"><input id="userleft"
+									type="checkbox" value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">离宿人员</span></label>
+							</dt>
+						</dl>
+
+					</dd>
+				</dl>
+				</br>
+				<dl class="permission-list" style="border: 0">
+					<dt>
+						<label class="middle"><input id="build"
+							name="user-Character-0" class="ace" type="checkbox"
+							id="id-disable-check"><span class="lbl">公寓管理</span></label>
+					</dt>
+					<dd>
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="middle"><input id="buildlist"
+									type="checkbox" value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">公寓列表</span></label>
+							</dt>
+						</dl>
+
+					</dd>
+				</dl>
+
+
+				</br>
+				<dl class="permission-list" style="border: 0">
+					<dt>
+						<label class="middle"><input id="room"
+							name="user-Character-0" class="ace" type="checkbox"
+							id="id-disable-check"><span class="lbl">宿舍管理</span></label>
+					</dt>
+					<dd>
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="middle"><input id="roomlist"
+									type="checkbox" value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">宿舍列表</span></label>
+							</dt>
+						</dl>
+
+					</dd>
+				</dl>
+
+
+				</br>
+				<dl class="permission-list" style="border: 0">
+					<dt>
+						<label class="middle"><input id="announcement"
+							name="user-Character-0" class="ace" type="checkbox"
+							id="id-disable-check"><span class="lbl">公告管理</span></label>
+					</dt>
+					<dd>
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="middle"><input id="announcementlist"
+									type="checkbox" value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">公告列表</span></label>
+							</dt>
+						</dl>
+
+					</dd>
+				</dl>
+
+
+				</br>
+				<dl class="permission-list" style="border: 0">
+					<dt>
+						<label class="middle"><input id="sys"
+							name="user-Character-0" class="ace" type="checkbox"
+							id="id-disable-check"><span class="lbl">系统管理</span></label>
+					</dt>
+					<dd>
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="middle"><input id="perssion"
+									type="checkbox" value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">权限管理</span></label>
+							</dt>
+							<dt>
+								<label class="middle"><input id="log" type="checkbox"
+									value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">系统日志</span></label>
+							</dt>
+						</dl>
+
+					</dd>
+				</dl>
+
+
+				</br>
+				<dl class="permission-list" style="border: 0">
+					<dt>
+						<label class="middle"><input id="approval"
+							name="user-Character-0" class="ace" type="checkbox"
+							id="id-disable-check"><span class="lbl">审批管理</span></label>
+					</dt>
+					<dd>
+						<dl class="cl permission-list2">
+							<dt>
+								<label class="middle"><input id="wait" type="checkbox"
+									value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">等待审核</span></label>
+							</dt>
+							<dt>
+								<label class="middle"><input id="history"
+									type="checkbox" value="" class="ace" name="user-Character-0-0"
+									id="id-disable-check"><span class="lbl">历史审核</span></label>
+							</dt>
+						</dl>
+
+					</dd>
+				</dl>
+
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+<script>
+	$(function() {
+		var user = 0;
+		var usernow = 0;
+		var userleft = 0;
+		var build = 0;
+		var buildlist = 0;
+		var room = 0;
+		var roomlist = 0;
+		var announcement = 0;
+		var announcementlist = 0;
+		var sys = 0;
+		var perssion = 0;
+		var log = 0;
+		var approval = 0;
+		var wait = 0;
+		var history = 0;
+		var pname;
+		var premark;
+		$("#submit").click(function() {
+			pname = $("#pname").val();
+			premark = $("#premark").val();
+			console.log(pname + " " + premark);
+			$.ajax({
+				url : "/DM-2/PermissionServlet",
+				data : {
+					op : "add",
+					name : pname,
+					remark : premark,
+					buildlist : buildlist,
+					roomlist : roomlist,
+					usernow : usernow,
+					userleft : userleft,
+					announcementlist : announcementlist,
+					wait : wait,
+					history : history,
+					perssion : perssion,
+					log : log
+				},
+				success : function(msg) {
+					alert(msg);
+					location.href = "admin_Competence.html";
+				}
+			});
+		});
+		$("#approval").click(function() {
+			if (approval) {
+				approval = 0;
+				wait = 0;
+				history = 0;
+			} else {
+				approval = 1;
+				wait = 1;
+				history = 1;
+			}
+			console.log(approval);
+			console.log(wait);
+			console.log(history);
+		});
+
+		$("#wait").click(function() {
+			if (wait) {
+				wait = 0;
+			} else {
+				wait = 1;
+			}
+			console.log(wait);
+		});
+
+		$("#history").click(function() {
+			if (history) {
+				history = 0;
+			} else {
+				history = 1;
+			}
+			console.log(history);
+		});
+		$("#sys").click(function() {
+			if (sys) {
+				sys = 0;
+				perssion = 0;
+				log = 0;
+			} else {
+				sys = 1;
+				perssion = 1;
+				log = 1;
+			}
+			console.log(sys);
+			console.log(perssion);
+			console.log(log);
+		});
+
+		$("#perssion").click(function() {
+			if (perssion) {
+				perssion = 0;
+			} else {
+				perssion = 1;
+			}
+			console.log(perssion);
+		});
+
+		$("#log").click(function() {
+			if (log) {
+				log = 0;
+			} else {
+				log = 1;
+			}
+			console.log(log);
+		});
+		$("#user").click(function() {
+			if (user) {
+				user = 0;
+				usernow = 0;
+				userleft = 0;
+			} else {
+				user = 1;
+				usernow = 1;
+				userleft = 1;
+			}
+			console.log("住户管理" + user);
+			console.log("在住住户管理" + usernow);
+			console.log("离宿住户管理" + userleft);
+		});
+
+		$("#usernow").click(function() {
+			if (usernow) {
+				usernow = 0;
+			} else {
+				usernow = 1;
+			}
+			console.log(usernow);
+		});
+
+		$("#userleft").click(function() {
+			if (userleft) {
+				userleft = 0;
+			} else {
+				userleft = 1;
+			}
+			console.log(userleft);
+		});
+
+		$("#build").click(function() {
+			if (build) {
+				build = 0;
+				buildlist = 0;
+			} else {
+				build = 1;
+				buildlist = 1;
+			}
+			console.log("公寓管理" + build);
+			console.log("公寓列表管理" + buildlist);
+		});
+		$("#buildlist").click(function() {
+			if (buildlist) {
+				buildlist = 0;
+			} else {
+				buildlist = 1;
+			}
+			console.log(buildlist);
+		});
+
+		$("#room").click(function() {
+			if (room) {
+				room = 0;
+				roomlist = 0;
+			} else {
+				room = 1;
+				roomlist = 1;
+			}
+			console.log(room);
+			console.log(roomlist);
+		});
+		$("#roomlist").click(function() {
+			if (roomlist) {
+				roomlist = 0;
+			} else {
+				roomlist = 1;
+			}
+			console.log(roomlist);
+		});
+		$("#announcement").click(function() {
+			if (announcement) {
+				announcement = 0;
+				announcementlist = 0;
+			} else {
+				announcement = 1;
+				announcementlist = 1;
+			}
+			console.log(announcement);
+			console.log(announcementlist);
+		});
+		$("#announcementlist").click(function() {
+			if (announcementlist) {
+				announcementlist = 0;
+			} else {
+				announcementlist = 1;
+			}
+			console.log(announcementlist);
+		});
+	});
+</script>
+<script type="text/javascript">
+	//初始化宽度、高度  
+	$(".left_Competence_add,.Competence_add_style").height($(window).height())
+			.val();
+	;
+	$(".Assign_style").width($(window).width() - 500)
+			.height($(window).height()).val();
+	$(".Select_Competence").width($(window).width() - 500).height(
+			$(window).height() - 40).val();
+	//当文档窗口发生改变时 触发  
+	$(window).resize(
+			function() {
+
+				$(".Assign_style").width($(window).width() - 500).height(
+						$(window).height()).val();
+				$(".Select_Competence").width($(window).width() - 500).height(
+						$(window).height() - 40).val();
+				$(".left_Competence_add,.Competence_add_style").height(
+						$(window).height()).val();
+				;
+			});
+	/*字数限制*/
+	function checkLength(which) {
+		var maxChars = 200; //
+		if (which.value.length > maxChars) {
+			layer.open({
+				icon : 2,
+				title : '提示框',
+				content : '您出入的字数超多限制!',
+			});
+			// 超过限制的字数了就将 文本框中的内容按规定的字数 截取
+			which.value = which.value.substring(0, maxChars);
+			return false;
+		} else {
+			var curr = maxChars - which.value.length; //250 减去 当前输入的
+			document.getElementById("sy").innerHTML = curr.toString();
+			return true;
+		}
+	};
+	/*按钮选择*/
+	$(function() {
+		$(".permission-list dt input:checkbox").click(
+				function() {
+					$(this).closest("dl").find("dd input:checkbox").prop(
+							"checked", $(this).prop("checked"));
+				});
+		$(".permission-list2 dd input:checkbox")
+				.click(
+						function() {
+							var l = $(this).parent().parent().find(
+									"input:checked").length;
+							var l2 = $(this).parents(".permission-list").find(
+									".permission-list2 dd").find(
+									"input:checked").length;
+							if ($(this).prop("checked")) {
+								$(this).closest("dl").find("dt input:checkbox")
+										.prop("checked", true);
+								$(this).parents(".permission-list").find("dt")
+										.first().find("input:checkbox").prop(
+												"checked", true);
+							} else {
+								if (l == 0) {
+									$(this).closest("dl").find(
+											"dt input:checkbox").prop(
+											"checked", false);
+								}
+								if (l2 == 0) {
+									$(this).parents(".permission-list").find(
+											"dt").first()
+											.find("input:checkbox").prop(
+													"checked", false);
+								}
+							}
+
+						});
+	});
+</script>

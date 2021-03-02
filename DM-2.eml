@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component jdk="JavaSE-1.7" jdk_type="JavaSDK">
+<component jdk="1.7" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/out/test/DM-2"/>
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
 	<lib name="c3p0-0.9.1.2.jar" scope="COMPILE">
@@ -17,9 +18,6 @@
 	<lib name="commons-fileupload-1.3.2.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.3.2.jar!/"/>
 	</lib>
-	<lib name="mysql-connector-java-5.1.18-bin.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar!/"/>
-	</lib>
 	<lib name="poi-3.7.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-3.7.jar!/"/>
 	</lib>
@@ -29,7 +27,11 @@
 	<lib name="jstl.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar!/"/>
 	</lib>
+	<lib name="mysql-connector-java-5.1.18-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar!/"/>
+	</lib>
 	<levels>
 		<level name="Java EE 6-Java EE 6" value="project"/>
+		<level name="lib" value="project"/>
 	</levels>
 </component>

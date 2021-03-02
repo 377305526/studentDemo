@@ -7,8 +7,7 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/WebContent/front" relative="/front" />
-          <root url="file://$MODULE_DIR$/WebContent/background" relative="/background" />
+          <root url="file://$MODULE_DIR$/WebContent" relative="/" />
         </webroots>
       </configuration>
     </facet>

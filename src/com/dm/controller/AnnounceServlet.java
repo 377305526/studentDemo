@@ -23,8 +23,8 @@ import com.google.gson.Gson;
 
 /**
  * Servlet implementation class AnnounceServlet
+ * @author Administrator
  */
-@MultipartConfig
 @WebServlet("/AnnounceServlet")
 public class AnnounceServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -42,6 +42,7 @@ public class AnnounceServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
 	 *      response)
 	 */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
@@ -128,6 +129,7 @@ public class AnnounceServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
 	 *      response)
 	 */
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub

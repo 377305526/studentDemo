@@ -1,1014 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DM-2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="61c27af6-a165-4bb6-b34d-4e5bfe3c440f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/com.genuitec.eclipse.migration.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DM-2.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DM-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-3.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/css/reg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/getpass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/img/52032614.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/img/bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/js/agree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/js/jQuery.md5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Account_Details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Application.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Competence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Order_Chart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Refund_detailed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Retreat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Shops_Audit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/System_Logs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/twoer/datepicker-dev.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/twoer/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/twoer/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/twoer/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/Validform/5.3.2/Validform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/Validform/5.3.2/Validform.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/Validform/5.3.2/passwordStrength-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/datatables/1.10.0/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/icheck.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/jquery.icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/icheck/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/cancel_upload.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/handlers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/swfupload.cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/swfupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/swfupload.proxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/swfupload.queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/swfupload.speed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/swfupload_fp9.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/swfupload/upload-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/ASPJson.class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/MultiformProcessor.class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/PathFormatter.class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/Uploader.Class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/action_config.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/action_crawler.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/action_list.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/action_upload.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/config_loader.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/asp/controller.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/controller.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/lib/json.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/lib/ueditor-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/ActionEnter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/ConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/PathFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/ActionMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/ActionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/AppInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/BaseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/FileType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/MIMEType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/MultiState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/hunter/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/hunter/ImageHunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/upload/Base64Uploader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/upload/BinaryUploader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/upload/StorageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/jsp/src/com/baidu/ueditor/upload/Uploader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/Config.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/ConfigHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/CrawlerHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/Handler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/ListFileHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/NotSupportedHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/PathFormater.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/App_Code/UploadHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/Bin/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/Bin/Newtonsoft.Json.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/Bin/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/Web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/controller.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/net/net.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/php/Uploader.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/php/action_crawler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/php/action_list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/php/action_upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/php/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/php/controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/ueditor/1.4.3/ueditor.parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/cropper/cropper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/cropper/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/cropper/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/expressInstall.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/image-upload/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/image-upload/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/images/icons.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/images/progress.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/md5-demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/md5-demo/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/requirejs/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/requirejs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/requirejs/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/server/crossdomain.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/server/fileupload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/server/fileupload2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/server/preview.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.fis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.noimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.noimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.nolog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.nolog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/webuploader/0.1.5/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/js/jquery.ztree.core-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/js/jquery.ztree.excheck-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/js/jquery.ztree.exedit-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/Widget/zTree/js/jquery.ztree.exhide-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/admin_Competence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/admin_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/admin_info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/administrator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/announcehistory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/applicationDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/applicationdetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/article_Sort.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/avatars/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/ace-ie.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/ace-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/ace-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/ace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/bootstrap-editable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/chosen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/easyui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/echartsHome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/font-awesome-ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/jquery-ui-1.10.3.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/jquery-ui-1.10.3.full.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/css/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/chord.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/eventRiver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/force.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/k.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/radar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/scatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/venn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/chart/wordCloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/echarts-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/theme/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/theme/infographic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/dist/theme/macarons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/font/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/ace-elements.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/ace-extra.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/ace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/bootstrap-tag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/date-time/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/date-time/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/date-time/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/date-time/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/flot/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/flot/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/flot/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/fuelux/data/fuelux.tree-sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/fuelux/fuelux.spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/fuelux/fuelux.tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/fuelux/fuelux.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jqGrid/i18n/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery-ui-1.10.3.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.colorbox-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.easy-pie-chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.hotkeys.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/markdown/bootstrap-markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/markdown/markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/typeahead-bs2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/x-editable/ace-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/js/x-editable/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/need/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/skins/dahong/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/skins/dahong/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/skins/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/skins/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/skins/molv/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/laydate/skins/molv/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/extend/layer.ext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/skin/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/assets/layer/skin/layer.ext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/background.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/background.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/build.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/css/easyui_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/font/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/historicalreview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/ban1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/ban2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/build.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/detailnoimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon-ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon-addp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon-addwz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon-cpgl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon-grxx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon-gwcc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon-wz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon_error_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon_login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon_right_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/icon_warning_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/indexhead_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/login_bgx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/login_m_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/loginbg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/loginbg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/loginbg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/meiyou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/r1_c2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/renz-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/star-off-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/star-on-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/xdt_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/xtbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/images/xtsz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/H-ui.admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/H-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/displayPart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/dragDivResize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/easyloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/easyui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery.SuperSlide.2.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery.easyui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery.nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/jquery.raty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/lrtk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/js/wangEditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/member-show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/ad1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/ad2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/ad3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/14373828.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/14373886.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/14384098.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/14390003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/14391940.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/black9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/caifut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/citi-bank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/unionpay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/weixin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/yinglian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/yozhif.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/black/zhifb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/cp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1089.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1208.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1252.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1396.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/152.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/156.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/1663.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/199.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/245.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/339.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/458.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/6116.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/644.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/690.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/740.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/741.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/logo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/logo/logo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/p_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/products/分组.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/publishannounce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/room.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/schedule.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/shopping_detailed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/updatecompetence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/userlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/background/userlist_left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/css/gloab.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/css/verify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/bootstrap.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/bootstrap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/bootstrap.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/bootstrap.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/images/hidePwd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/images/showPwd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/images/yzm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/js/register.src" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/background/register/js/verify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/announce.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/css/publice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/arrow_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/arrow_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/content_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/content_bga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/foot_icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/foot_icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/foot_icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/history.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/link_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/loginout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/slide_ewm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/slide_wb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/slide_wx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/top_icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/top_icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/top_icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/top_icon31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/video_but.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/waite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/img/waite1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/css/wnl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/js/183.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/js/lhl/hl2015.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/js/lhl/hl2016.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/js/lhl/hl2017.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/js/lhl/hl2018.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/jquery-lunar-calendar/js/wnl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/js/jquery.SuperSlide.2.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/js/jquery.dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/js/jquery1.42.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/js/style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/roomview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/self.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/about_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/about_pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/brief_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/brief_pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/brief_pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/build.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/index_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/index_pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/index_pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/index_pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/index_pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/link_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/pro_pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/pro_pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/pro_pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/pro_pic4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/product_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/temp/trends_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/front/userInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/AdminServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/AnnounceServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/ApprovalServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/BedServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/BuildServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/ClassServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/PermissionServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/RoomServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/StudentServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/AdminDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/AnnounceDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/ApprovalDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/BedsDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/BuildDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/ClassDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/MsgDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/PermissionDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/RoomDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/dao/StudentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Administrator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Announce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Approval.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Beds.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Builds.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Classes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Msg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/entity/SysLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/filter/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/service/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/service/AnnounceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/service/ApprovalService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/service/BedService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/service/BuildsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/service/RoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/utils/BaseUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/com/dm/utils/DBUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/AdminServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/AnnounceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/ApprovalServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/BedServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/BuildServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/ClassServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/PermissionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/RoomServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/controller/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/AdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/AnnounceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/ApprovalDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/BedsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/BuildDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/ClassDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/MsgDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/PermissionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/RoomDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Announce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Approval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Beds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Builds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Classes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Msg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/entity/SysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/service/AnnounceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/service/ApprovalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/service/BedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/service/BuildsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/service/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/utils/BaseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dm/utils/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DM_2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DM-2.eml" beforeDir="false" afterPath="$PROJECT_DIR$/DM-2.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DM-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DM-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/background/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/background/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/front/announce.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/front/announce.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/front/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/front/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/front/roomview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/front/roomview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/front/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/front/userInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/dm/controller/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/AdminServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/dm/controller/AnnounceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/AnnounceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/dm/controller/BedServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/BedServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/dm/controller/BuildServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/BuildServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/dm/controller/ClassServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/ClassServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/dm/controller/PermissionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/PermissionServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/dm/controller/StudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/dm/controller/StudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/AnnounceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/AnnounceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/ApprovalServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/ApprovalServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/BedServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/BedServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/BuildServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/BuildServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/ClassServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/ClassServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/PermissionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/PermissionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dm/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dm/controller/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -1041,9 +90,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -1052,11 +102,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.28">
     <configuration name="DM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.281" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1070,11 +120,16 @@
             <option name="CONTEXT_PATH" value="/front" />
           </settings>
         </file>
+        <file path="$PROJECT_DIR$/src/com/dm">
+          <settings>
+            <option name="CONTEXT_PATH" value="/dm" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_01项目源代码_3" />
         <option name="HTTP_PORT" value="8222" />
-        <option name="JNDI_PORT" value="1100" />
+        <option name="JNDI_PORT" value="1105" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -1131,6 +186,80 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.28" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.28" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8899/DM-2/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DM-2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DM-2" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_01项目源代码" />
+        <option name="HTTP_PORT" value="8899" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50719" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DM-2:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1195,6 +324,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.DM" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.28" />
+    </list>
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -1209,6 +342,9 @@
       <updated>1601282038121</updated>
       <workItem from="1601282040580" duration="3098000" />
       <workItem from="1601340821543" duration="1654000" />
+      <workItem from="1614574856146" duration="4411000" />
+      <workItem from="1614589257401" duration="615000" />
+      <workItem from="1614648336796" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="宿舍管理demo">
       <created>1601343307355</created>
@@ -1233,140 +369,160 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="宿舍管理demo" />
     <option name="LAST_COMMIT_MESSAGE" value="宿舍管理demo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="121" key="#DM" timestamp="1601282730416">
+    <state x="879" y="243" width="1040" height="781" key="#Project_Structure" timestamp="1614648814711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="641" y="121" key="#DM/0.0.1920.1040@0.0.1920.1040" timestamp="1601282730416" />
-    <state x="641" y="121" key="#DM2" timestamp="1601282190448">
+    <state x="879" y="243" width="1040" height="781" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1614648814711" />
+    <state x="749" y="288" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614648893650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="641" y="121" key="#DM2/0.0.1920.1040@0.0.1920.1040" timestamp="1601282190448" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1601282827601">
+    <state x="749" y="288" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614648893650" />
+    <state x="682" y="157" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1614579520139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1601282827601" />
-    <state x="641" y="121" key="#Unnamed" timestamp="1601282182280">
+    <state x="682" y="157" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1614579520139" />
+    <state x="1188" y="539" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1614648750404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="641" y="121" key="#Unnamed/0.0.1920.1040@0.0.1920.1040" timestamp="1601282182280" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601283017965">
+    <state x="1188" y="539" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614648750404" />
+    <state x="1119" y="365" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1614648496508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601283017965" />
-    <state x="560" y="425" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1601282649784">
+    <state x="1119" y="365" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614648496508" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1614561822210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="425" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1601282649784" />
-    <state x="749" y="425" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1601282703317">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614561822210" />
+    <state x="898" y="301" key="FileChooserDialogImpl" timestamp="1614648749536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="749" y="425" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601282703317" />
-    <state x="525" y="106" key="CommitChangelistDialog2" timestamp="1601343296351">
+    <state x="898" y="301" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614648749536" />
+    <state width="734" height="191" key="GridCell.Tab.0.bottom" timestamp="1614651192557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601343296351" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601342332333">
+    <state width="734" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614651192557" />
+    <state width="734" height="191" key="GridCell.Tab.0.center" timestamp="1614651192557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601342332333" />
-    <state width="1479" height="169" key="GridCell.Tab.0.bottom" timestamp="1601287304294">
+    <state width="734" height="191" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614651192557" />
+    <state width="734" height="191" key="GridCell.Tab.0.left" timestamp="1614651192557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.0.center" timestamp="1601287304294">
+    <state width="734" height="191" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614651192557" />
+    <state width="734" height="191" key="GridCell.Tab.0.right" timestamp="1614651192557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.0.left" timestamp="1601287304294">
+    <state width="734" height="191" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614651192557" />
+    <state width="734" height="191" key="GridCell.Tab.1.bottom" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.0.right" timestamp="1601287304294">
+    <state width="734" height="191" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.1.center" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.1.bottom" timestamp="1601287304294">
+    <state width="734" height="191" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.1.left" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.1.center" timestamp="1601287304294">
+    <state width="734" height="191" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.1.right" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.1.left" timestamp="1601287304294">
+    <state width="734" height="191" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="1479" height="284" key="GridCell.Tab.14.bottom" timestamp="1614648951394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.1.right" timestamp="1601287304294">
+    <state width="1479" height="284" key="GridCell.Tab.14.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951394" />
+    <state width="1479" height="284" key="GridCell.Tab.14.center" timestamp="1614648951394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304294" />
-    <state width="1479" height="169" key="GridCell.Tab.2.bottom" timestamp="1601287304295">
+    <state width="1479" height="284" key="GridCell.Tab.14.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951394" />
+    <state width="1479" height="284" key="GridCell.Tab.14.left" timestamp="1614648951394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="169" key="GridCell.Tab.2.center" timestamp="1601287304295">
+    <state width="1479" height="284" key="GridCell.Tab.14.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951394" />
+    <state width="1479" height="284" key="GridCell.Tab.14.right" timestamp="1614648951394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="169" key="GridCell.Tab.2.left" timestamp="1601287304295">
+    <state width="1479" height="284" key="GridCell.Tab.14.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951394" />
+    <state width="1479" height="284" key="GridCell.Tab.15.bottom" timestamp="1614648951819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="169" key="GridCell.Tab.2.right" timestamp="1601287304295">
+    <state width="1479" height="284" key="GridCell.Tab.15.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951819" />
+    <state width="1479" height="284" key="GridCell.Tab.15.center" timestamp="1614648951818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="169" key="GridCell.Tab.3.bottom" timestamp="1601287304295">
+    <state width="1479" height="284" key="GridCell.Tab.15.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951818" />
+    <state width="1479" height="284" key="GridCell.Tab.15.left" timestamp="1614648951818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="169" key="GridCell.Tab.3.center" timestamp="1601287304295">
+    <state width="1479" height="284" key="GridCell.Tab.15.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951818" />
+    <state width="1479" height="284" key="GridCell.Tab.15.right" timestamp="1614648951819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="169" key="GridCell.Tab.3.left" timestamp="1601287304295">
+    <state width="1479" height="284" key="GridCell.Tab.15.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614648951818" />
+    <state width="734" height="191" key="GridCell.Tab.2.bottom" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="169" key="GridCell.Tab.3.right" timestamp="1601287304295">
+    <state width="734" height="191" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.2.center" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="169" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601287304295" />
-    <state width="1479" height="361" key="GridCell.Tab.8.bottom" timestamp="1601282906142">
+    <state width="734" height="191" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.2.left" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="361" key="GridCell.Tab.8.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601282906142" />
-    <state width="1479" height="361" key="GridCell.Tab.8.center" timestamp="1601282906142">
+    <state width="734" height="191" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.2.right" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="361" key="GridCell.Tab.8.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601282906142" />
-    <state width="1479" height="361" key="GridCell.Tab.8.left" timestamp="1601282906142">
+    <state width="734" height="191" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.3.bottom" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="361" key="GridCell.Tab.8.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601282906142" />
-    <state width="1479" height="361" key="GridCell.Tab.8.right" timestamp="1601282906142">
+    <state width="734" height="191" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.3.center" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1479" height="361" key="GridCell.Tab.8.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601282906142" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1601283002018">
+    <state width="734" height="191" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.3.left" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601283002018" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601343357425">
+    <state width="734" height="191" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state width="734" height="191" key="GridCell.Tab.3.right" timestamp="1614651180111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601343357425" />
-    <state x="443" y="252" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601340896413">
+    <state width="734" height="191" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614651180111" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1614562290605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="443" y="252" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601340896413" />
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614562290605" />
+    <state x="661" y="252" width="653" height="536" key="find.popup" timestamp="1614651058298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="252" width="653" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614651058298" />
+    <state x="551" y="179" key="new project wizard" timestamp="1614567328750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614567328750" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dm/controller/AnnounceServlet.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/01$DM.ic" NAME="DM Coverage Results" MODIFIED="1601284663744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
